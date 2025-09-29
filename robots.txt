@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xianyu110.github.io/claude-cn-sites/sitemap.xml
