@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body data-theme="light">
+    <div class="page-wrapper">
+        <!-- Control Bar -->
+        <div class="control-bar">
+            <div class="container">
+                <div class="controls">
+                    <button id="theme-toggle" class="control-btn" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                        <span class="control-text" data-i18n="theme"></span>
+                    </button>
+                    <button id="lang-toggle" class="control-btn" aria-label="Toggle language">
+                        <i class="fas fa-globe"></i>
+                        <span class="control-text" data-i18n="language"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero-title">Claude 4.5 国内使用指南</h1>
+                    <p class="hero-subtitle" data-i18n="hero-subtitle">为国内用户提供最全面、最便捷的 Claude 4.5 访问方案</p>
+                    <div class="hero-badges">
+                        <span class="badge"><i class="fas fa-rocket"></i> <span data-i18n="badge-reliable">稳定可靠</span></span>
+                        <span class="badge"><i class="fas fa-dollar-sign"></i> <span data-i18n="badge-transparent">价格透明</span></span>
+                        <span class="badge"><i class="fas fa-shield-alt"></i> <span data-i18n="badge-secure">安全保障</span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                {{ content }}
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Claude 4.5 使用指南</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
