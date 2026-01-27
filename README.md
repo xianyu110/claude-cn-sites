@@ -51,8 +51,7 @@
 
 * **特点**：价格门槛低，访问便捷。
 * **价格**：**最低仅 66 元/月**。
-* **链接**：[https://agi.maynor1024.live/list/#/home](https://agi.maynor1024.live/list/#/home)
-
+* **链接**：https://kelaode.maynorai.top/list/#/home
 ![国内镜像站服务界面](https://restname.oss-cn-hangzhou.aliyuncs.com/image-20250930023127762.png)
 
 #### **二、 中转 API（开发者必备）**
@@ -84,8 +83,7 @@
 
   * **Pro 版**: **190 元/月**
   * **20xMax 版**: **1800 元/月**
-* **链接**：[https://717ka.com/p/w29ze9gwsy965zfx5yzr9eh6](https://717ka.com/p/w29ze9gwsy965zfx5yzr9eh6)
-
+   联系微信客服 coder-maynor
 ![官方账号代充服务页面](https://restname.oss-cn-hangzhou.aliyuncs.com/image-20250930023544065.png)
 
 ---
