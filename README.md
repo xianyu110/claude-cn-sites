@@ -61,7 +61,7 @@
 * **特点**：专为编程调用设计，灵活集成。
 * **链接**：[https://api.maynor1024.live/](https://api.maynor1024.live/)
 
-* **链接**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/)
+* **链接**：[https://tryallapi.com/](https://tryallapi.com/)
 
 ![image-20250930025241522](https://restname.oss-cn-hangzhou.aliyuncs.com/image-20250930025241522.png)
 

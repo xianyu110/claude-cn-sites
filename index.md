@@ -49,7 +49,7 @@ layout: default
 
 * **特点**：专为编程调用设计，灵活集成，支持自定义配置。
 * **基础版链接**：[https://api.maynor1024.live/](https://api.maynor1024.live/)
-* **专业版链接**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/)
+* **专业版链接**：[https://tryallapi.com/](https://tryallapi.com/)
 
 ![中转API服务后台界面](https://restname.oss-cn-hangzhou.aliyuncs.com/image-20250930025241522.png)
 
